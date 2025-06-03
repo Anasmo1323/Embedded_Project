@@ -1,12 +1,12 @@
-//
-// Created by Anas Mohamed on 6/2/2025.
-//
-#include "Std_Types.h"
-#include "string.h"
-#include "GPIO.h"
 #include "LCD.h"
 
+
 void LCD_Init(void) {
+    Rcc_Enable(RCC_GPIOE);
+    for (uint8 i = 0; i <= 9; i++) {
+        GPIO_Init(GPIO_E, i, GPIO_OUTPUT, GPIO_PUSH_PULL);
+    }
+
     LCD_Write(0x38, 0); // 8-bit, 2 lines, 5x8 font
     LCD_Write(0x0C, 0); // Display on, cursor off
     LCD_Write(0x06, 0); // Entry mode: increment cursor
@@ -32,10 +32,6 @@ void LCD_Write(uint8 data, uint8 rs) {
     GPIO_WritePin(LCD_PORT, LCD_E, LOW);
 }
 
-
-// Initialize LCD in 8-bit mode (HD44780U datasheet, page 23-24)
-
-
 void LCD_Print(const char* str) {
     while (*str) { // Stops at the null terminator
         LCD_Write(*str, 1); //str here points to the first character in the string when we dereference it,
@@ -43,12 +39,9 @@ void LCD_Print(const char* str) {
         str++;                       //Then we increment the pointer to point to the next character
     }
 }
-void Delay_ms(int i) {
-    for (int j = 0; j < 1200 * i; ++j) {
-    }
-}
 
-void LCD_Update(uint8 to_be_updated, const char* update) {
+
+void LCD_Update(uint8 to_be_updated, char* update) {
     switch (to_be_updated) {
         case CONVEYOR_SPEED:
             LCD_Write(CONVEYOR_SPEED, 0);
@@ -70,4 +63,11 @@ void LCD_Update(uint8 to_be_updated, const char* update) {
     for (int i = 0; i < 3 - strlen(update); i++) {
         LCD_Print(" ");
     }
+}
+void Delay_ms(int i) {
+    for (int j = 0; j < 1200 * i; ++j) {
+    }
+}
+void uint16_to_string(uint16 value, char *buffer) {
+    snprintf(buffer, 4, "%u", value); // %u for unsigned int
 }
