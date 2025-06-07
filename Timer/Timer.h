@@ -42,5 +42,6 @@ typedef struct {
 // Function prototypes
 void Timer_Init(uint32 TimerBase, uint8 Channel, uint8 Mode, uint32 Prescaler, uint8 Edge);
 uint8 Timer_CheckCapture(uint32 TimerBase, uint8 Channel, uint32* CaptureValue);
+uint32 Timer_GetCounter(uint32 timer_base);
 
 #endif /* TIMER_H */
