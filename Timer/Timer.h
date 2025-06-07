@@ -2,6 +2,8 @@
 #define TIMER_H
 
 #include "Std_Types.h"
+#include "Rcc.h"
+#include "Utils.h"
 
 // Timer base addresses
 #define TIM2_BASE 0x40000000

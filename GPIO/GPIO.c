@@ -1,9 +1,8 @@
-#include <Std_Types.h>
 #include "Gpio.h"
 
  #define GPIO_REG(PORT_ID, REG_ID)       ((volatile uint32 *) ((PORT_ID) + (REG_ID)))
 
-void Gpio_Init(uint8 PortName, uint8 PinNumber, uint8 PinMode, uint8 DefaultState) {
+void Gpio_Init(uint32 PortName, uint8 PinNumber, uint8 PinMode, uint8 DefaultState) {
     GpioReg* gpioReg = (GpioReg*) PortName;
     // ensure a valid pin number
     if (PinNumber > 15) return;
@@ -24,7 +23,7 @@ void Gpio_Init(uint8 PortName, uint8 PinNumber, uint8 PinMode, uint8 DefaultStat
 
 }
 
-uint8 Gpio_WritePin(uint8 PortName, uint8 PinNumber, uint8 Data) {
+uint8 Gpio_WritePin(uint32 PortName, uint8 PinNumber, uint8 Data) {
     GpioReg* gpioReg = (GpioReg*) PortName;
 
     if (PinNumber > 15) return 0;
@@ -38,7 +37,7 @@ uint8 Gpio_WritePin(uint8 PortName, uint8 PinNumber, uint8 Data) {
     else return 0;
 }
 
-uint8 Gpio_ReadPin(uint8 PortName, uint8 PinNumber) {
+uint8 Gpio_ReadPin(uint32 PortName, uint8 PinNumber) {
     GpioReg* gpioReg = (GpioReg*) PortName;
 
     if (PinNumber > 15) return 0;

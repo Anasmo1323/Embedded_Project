@@ -3,7 +3,7 @@
 
 void EXTI_Init(uint8 port,uint8 line,  uint8 trigger) {
 
-    GPIO_Init(port, line, GPIO_INPUT, GPIO_PULL_UP);
+    Gpio_Init(port, line, GPIO_INPUT, GPIO_PULL_UP);
 
     // Enable SYSCFG clock
     Rcc_Enable(RCC_SYSCFG);

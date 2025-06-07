@@ -2,12 +2,14 @@
 #define GPIO_H
 
 #include "Std_Types.h"
+#include <Std_Types.h>
 
 // define ports base addresses
 #define GPIO_A 0x40020000
 #define GPIO_B 0x40020400
 #define GPIO_C 0x40020800
 #define GPIO_D 0x40020C00
+#define GPIO_E 0x40021000
 
 typedef struct
 {
@@ -47,11 +49,11 @@ typedef struct
 #define NOK 0x1
 
 
-void Gpio_Init(uint8 PortName, uint8 PinNumber, uint8 PinMode, uint8 DefaultState);
+void Gpio_Init(uint32 PortName, uint8 PinNumber, uint8 PinMode, uint8 DefaultState);
 
-uint8 Gpio_WritePin(uint8 PortName, uint8 PinNumber, uint8 Data);
+uint8 Gpio_WritePin(uint32 PortName, uint8 PinNumber, uint8 Data);
 
-uint8 Gpio_ReadPin(uint8 PortName, uint8 PinNumber);
+uint8 Gpio_ReadPin(uint32 PortName, uint8 PinNumber);
 
 void GPIO_SetAlternateFunction(uint32 PortName, uint8 PinNumber, uint8 AF);
 

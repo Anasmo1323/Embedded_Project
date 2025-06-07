@@ -1,6 +1,5 @@
 #include "ADC.h"
-#include "Gpio.h"
-#include "Rcc.h"
+
 
 void ADC_Init(void) {
     Rcc_Init();

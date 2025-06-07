@@ -4,7 +4,7 @@
 void LCD_Init(void) {
     Rcc_Enable(RCC_GPIOE);
     for (uint8 i = 0; i <= 9; i++) {
-        GPIO_Init(GPIO_E, i, GPIO_OUTPUT, GPIO_PUSH_PULL);
+        Gpio_Init(GPIO_E, i, GPIO_OUTPUT, GPIO_PUSH_PULL);
     }
 
     LCD_Write(0x38, 0); // 8-bit, 2 lines, 5x8 font
@@ -22,14 +22,14 @@ void LCD_Init(void) {
 
 void LCD_Write(uint8 data, uint8 rs) {
 
-    GPIO_WritePin(LCD_PORT, LCD_RS, rs);
+    Gpio_WritePin(LCD_PORT, LCD_RS, rs);
     for (uint8 i = 0; i < 8; i++) {
-        GPIO_WritePin(LCD_PORT, i, (data >> i) & 1);
+        Gpio_WritePin(LCD_PORT, i, (data >> i) & 1);
     }
 
     // Pulse Enable (PE8)
-    GPIO_WritePin(LCD_PORT, LCD_E, HIGH);
-    GPIO_WritePin(LCD_PORT, LCD_E, LOW);
+    Gpio_WritePin(LCD_PORT, LCD_E, HIGH);
+    Gpio_WritePin(LCD_PORT, LCD_E, LOW);
 }
 
 void LCD_Print(const char* str) {

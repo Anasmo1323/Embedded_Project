@@ -8,11 +8,11 @@ static char count_str[4] = {0};
 
 void IR_Init(void) {
     Rcc_Enable(RCC_GPIOB);
-    GPIO_Init(IR_PORT, IR_PIN, GPIO_INPUT, GPIO_PULL_DOWN);
+    Gpio_Init(IR_PORT, IR_PIN, GPIO_INPUT, GPIO_PULL_DOWN);
 }
 
 void IR_ObjectCounter(void) {
-    pin_state = GPIO_ReadPin(IR_PORT, IR_PIN);
+    pin_state = Gpio_ReadPin(IR_PORT, IR_PIN);
 
     if (last_pin_state == HIGH && pin_state == LOW && object_count < MAX_COUNT) {
                 object_count++;

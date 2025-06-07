@@ -2,6 +2,8 @@
 #define ADC_H
 #include "Std_Types.h"
 #include "ADC_Private.h"
+#include "Gpio.h"
+#include "Rcc.h"
 
 #define RES_12_BIT 0x00
 #define RES_10_BIT 0x01

@@ -1,6 +1,5 @@
 #include "Timer.h"
-#include "Rcc.h"
-#include "Utils.h"
+
 
 void Timer_Init(uint32 TimerBase, uint8 Channel, uint8 Mode, uint32 Prescaler, uint8 Edge) {
     TimerReg* timer = (TimerReg*)TimerBase;
