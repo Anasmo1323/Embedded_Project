@@ -1,7 +1,14 @@
 #include "ADC.h"
 #include "Gpio.h"
+#include "Rcc.h"
 
 void ADC_Init(void) {
+    Rcc_Init();
+    // Enable GPIOA clock
+    Rcc_Enable(RCC_GPIOA);
+    // Enable ADC1 clock
+    Rcc_Enable(RCC_ADC1);
+
     Gpio_Init(GPIO_A, 0, GPIO_ANALOG, GPIO_NO_PULL_DOWN); // set PA0 to analog
 
     ADC_COMMON->CCR &= ~(0x03 << 16);

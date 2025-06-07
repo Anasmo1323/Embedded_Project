@@ -1,109 +1,64 @@
-#include "GPIO.h"
+#include <Std_Types.h>
+#include "Gpio.h"
 
-    void GPIO_Init(uint8 PortName , uint8 PinNumber, uint8 PinMode, uint8 DefaultState)
+ #define GPIO_REG(PORT_ID, REG_ID)       ((volatile uint32 *) ((PORT_ID) + (REG_ID)))
+
+void Gpio_Init(uint8 PortName, uint8 PinNumber, uint8 PinMode, uint8 DefaultState) {
+    GpioReg* gpioReg = (GpioReg*) PortName;
+    // ensure a valid pin number
+    if (PinNumber > 15) return;
+    // set pin mode
+    gpioReg->GPIOx_MODER &= ~(0x03 << PinNumber * 2);
+    gpioReg->GPIOx_MODER |= (PinMode << PinNumber * 2);
+    // set pin type
+    if (PinMode == GPIO_OUTPUT)
     {
-        switch (PortName) {
-            case GPIO_A:
-                // Initialize GPIOA
-                GPIOA_MODER &= ~(0x03 << PinNumber * 2); // Clear the bits responsible for the mode of the PIN
-                GPIOA_MODER |= (PinMode << PinNumber * 2); // Set the mode
-                GPIOA_OTYPER &= ~(0x01 << PinNumber);
-                // Clear the output type bit
-                if (PinMode == GPIO_OUTPUT)
-                {
-                    GPIOA_OTYPER &= ~(0x01 << PinNumber); // Clear the output type bit
-                    GPIOA_OTYPER |= (DefaultState << PinNumber); // Set the output type
-                }
-                else
-                {
-                    GPIOA_PUPDR &= ~(0x03 << PinNumber * 2);
-                    GPIOA_PUPDR |= (DefaultState << PinNumber * 2);
-                }
-                break;
-            case GPIO_B:
-                GPIOB_MODER &= ~(0x03 << PinNumber * 2);
-                GPIOB_MODER |= (PinMode << PinNumber * 2);
-                GPIOB_OTYPER &= ~(0x01 << PinNumber);
-                // Clear the output type bit
-                if (PinMode == GPIO_OUTPUT)
-                {
-                GPIOB_OTYPER &= ~(0x01 << PinNumber);
-                GPIOB_OTYPER |= (DefaultState << PinNumber);
-                }
-                else
-                {
-                GPIOB_PUPDR &= ~(0x03 << PinNumber * 2);
-                GPIOB_PUPDR |= (DefaultState << PinNumber * 2);
-                }
-
-                break;
-            case GPIO_C:
-                break;
-            case GPIO_D:
-                break;
-            case GPIO_E:
-                GPIOE_MODER &= ~(0x03 << PinNumber * 2);
-                GPIOE_MODER |= (PinMode << PinNumber * 2);
-                GPIOE_OTYPER &= ~(0x01 << PinNumber);
-                // Clear the output type bit
-                if (PinMode == GPIO_OUTPUT)
-                {
-                    GPIOE_OTYPER &= ~(0x01 << PinNumber);
-                    GPIOE_OTYPER |= (DefaultState << PinNumber);
-                }
-                else
-                {
-                    GPIOE_PUPDR &= ~(0x03 << PinNumber * 2);
-                    GPIOE_PUPDR |= (DefaultState << PinNumber * 2);
-                }
-                break;
-            default:
-                break;
-        }
+        gpioReg->GPIOx_OTYPER &= ~(0x01 << PinNumber);
+        gpioReg->GPIOx_OTYPER |= (DefaultState << PinNumber);
+    }
+    else if (PinMode == GPIO_INPUT)
+    {
+        gpioReg->GPIOx_PUPDR &= ~(0x03 << PinNumber * 2);
+        gpioReg->GPIOx_PUPDR |= (DefaultState << PinNumber * 2);
     }
 
-    void GPIO_WritePin(uint8 PortName , uint8 PinNumber, uint8 Data)
-    {
-        switch (PortName) {
-            case GPIO_A:
-                GPIOA_ODR &= ~(0x01 << PinNumber);
-                GPIOA_ODR |= (Data << PinNumber);
-                break;
-            case GPIO_B:
-                GPIOB_ODR &= ~(0x01 << PinNumber);
-                GPIOB_ODR |= (Data << PinNumber);
-                break;
-            case GPIO_C:
-                break;
-            case GPIO_D:
-                break;
-            case GPIO_E:
-                GPIOE_ODR &= ~(0x01 << PinNumber);
-                GPIOE_ODR |= (Data << PinNumber);
-                break;
-            default:
-                break;
-        }
+}
+
+uint8 Gpio_WritePin(uint8 PortName, uint8 PinNumber, uint8 Data) {
+    GpioReg* gpioReg = (GpioReg*) PortName;
+
+    if (PinNumber > 15) return 0;
+    // check if the pin is an output pin
+    uint8 is_output = (gpioReg->GPIOx_MODER >> (PinNumber * 2)) & 0x03;
+    if (is_output == 1){
+        gpioReg->GPIOx_ODR &= ~(0x01 << PinNumber);
+        gpioReg->GPIOx_ODR |= ((Data & 0x01) << PinNumber);
+        return 1;
     }
-    uint8 GPIO_ReadPin(uint8 PortName , uint8 PinNumber)
-    {
-        uint8 Data = 0;
-        switch (PortName) {
-            case GPIO_A:
-                Data = (GPIOA_IDR >> PinNumber) & 0x01;
-                break;
-            case GPIO_B:
-                Data = (GPIOB_IDR >> PinNumber) & 0x01;
-                break;
-            case GPIO_C:
-                break;
-            case GPIO_D:
-                break;
-            case GPIO_E:
-                Data = (GPIOE_IDR >> PinNumber) & 0x01;
-                break;
-            default:
-                break;
-        }
-        return Data;
+    else return 0;
+}
+
+uint8 Gpio_ReadPin(uint8 PortName, uint8 PinNumber) {
+    GpioReg* gpioReg = (GpioReg*) PortName;
+
+    if (PinNumber > 15) return 0;
+    // check if the pin is an input pin
+    uint8 is_input = (gpioReg->GPIOx_MODER >> (PinNumber * 2)) & 0x03;
+    if (is_input == 0){
+        return (gpioReg->GPIOx_IDR >> PinNumber) & 0x01;
     }
+    else return 0;
+}
+
+void GPIO_SetAlternateFunction(uint32 PortName, uint8 PinNumber, uint8 AF) {
+    GpioReg* gpioReg = (GpioReg*)PortName;
+    gpioReg->GPIOx_MODER &= ~(0x03 << PinNumber * 2);
+    gpioReg->GPIOx_MODER |= (GPIO_AF << PinNumber * 2);
+    if (PinNumber < 8) {
+        gpioReg->GPIOx_AFRL &= ~(0xF << (PinNumber * 4));
+        gpioReg->GPIOx_AFRL |= (AF << (PinNumber * 4));
+    } else {
+        gpioReg->GPIOx_AFRH &= ~(0xF << ((PinNumber - 8) * 4));
+        gpioReg->GPIOx_AFRH |= (AF << ((PinNumber - 8) * 4));
+    }
+}

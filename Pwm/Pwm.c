@@ -1,30 +1,56 @@
 #include "Pwm.h"
-#include "stm32f4xx.h"
 #include "Gpio.h"
+#include "Timer.h"
+#include "Rcc.h"
 
 void PWM_Init(void)
 {
+    Rcc_Init();
+    // Enable TIM2 clock
+    Rcc_Enable(RCC_TIM2);
+    // Enable GPIOA clock
+    Rcc_Enable(RCC_GPIOA);
+
     // Set PA5 as AF (Alternate Function) mode
-    Gpio_Init(GPIO_A, 5, GPIO_AF, GPIO_PUSH_PULL);
+    GPIO_SetAlternateFunction(GPIO_A, 5, 1);    // Set AF1 for PA5 (TIM2_CH1)
 
-    // Set AF1 for PA5 (TIM2_CH1)
-    GPIOA->AFR[0] &= ~(0xF << (5 * 4));
-    GPIOA->AFR[0] |= (1 << (5 * 4));
+    // Get pointer to TIM2 registers using our TimerReg abstraction
+    TimerReg* timer2 = (TimerReg*)TIM2_BASE;
 
-    TIM2->PSC = 39;
-    // Prescaler 40 (assuming 168MHz clock => 4.2MHz timer clock)
-    TIM2->ARR = 100;   // PWM frequency (e.g., ~42kHz)
-    TIM2->CCR1 = 0;
-    TIM2->CCMR1 |= TIM_CCMR1_OC1M_1 | TIM_CCMR1_OC1M_2; // PWM mode 1
-    TIM2->CCER |= TIM_CCER_CC1E;  // Enable output for channel 1
-    TIM2->CR1 |= TIM_CR1_CEN; // Enable timer
+    // Configure timer:
+    timer2->PSC = 83;    // Set prescaler. (PSC value is prescaler - 1) Prescaler 40 (assuming 84MHz clock => 1MHz timer clock)
+    timer2->ARR = 999;   // Auto-reload value for PWM period (1 kHz)
+
+    timer2->CCR1 = 500;
+
+    timer2->CCMR1 &= ~(0x7 << 4);           // Clear OC1M bits (bits 6:4)
+    timer2->CCMR1 |= (6 << 4);              // Set OC1M to 110: PWM mode 1.
+    timer2->CCMR1 |= (0x1 << 3);            // Enable preload for CCR1.
+
+    /* Enable TIM2 Channel 1 output */
+    timer2->CCER |= (0x1 << 0);
+
+    /* Enable auto-reload preload */
+    timer2->CR1 |= (0x1 << 7);
+
+    /* Force an update event to load the registers */
+    timer2->EGR |= (0x1 << 0);
+
+    // Start the timer (set CEN in CR1)
+    timer2->CR1 |= (0x1 << 0);
 }
 void PWM_SetDutyCycle(uint8 duty)
 {
     if (duty > 100) duty = 100;
-    TIM2->CCR1 = duty;  // duty cycle 0-100%
+    // Update the compare register to adjust the PWM duty cycle:
+    TimerReg* timer2 = (TimerReg*)TIM2_BASE;
+    uint32 period = timer2->ARR;
+    uint32 pulse = ((period + 1) * duty) / 100;
+    timer2->CCR1 = pulse;
 }
 void PWM_Stop(void)
 {
-    TIM2->CCR1 = 0;
+    // To stop PWM, simply set the compare value to 0.
+    TimerReg* timer2 = (TimerReg*)TIM2_BASE;
+    timer2->CCR1 = 0;
 }
