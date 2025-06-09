@@ -15,8 +15,7 @@
 
 #define MAX_TIMER_COUNT 0xFFFF
 
-float measure_conveyor_speed(void);
-float conveyor_speed;
+uint16 measure_conveyor_speed(void);
 
 volatile uint8 emergency_flag = 0;
 int main(void)
@@ -41,6 +40,9 @@ int main(void)
     ADC_Init();
     PWM_Init();
 
+    GPIO_SetAlternateFunction(GPIO_A, 15, 1); 
+    Timer_Init(TIM2_BASE, 1, TIMER_INPUT_CAPTURE, 84, TIMER_RISING_EDGE); 
+
     while (1)
     {
         if (!emergency_flag)
@@ -51,10 +53,18 @@ int main(void)
             adc_value = ADC_Read();
             motor_percent = ((uint32)adc_value * 100) / 4095;
             PWM_SetDutyCycle(motor_percent);
-            char motor_str[2];
+            char motor_str[3];
             uint16_to_string(motor_percent, motor_str);
-            __disable_irq(); // handlin race condition
+
+             //____________
+            uint16 conv_speed = 0;
+            conv_speed = measure_conveyor_speed();
+            char speed_str[3];
+            uint16_to_string(conv_speed, speed_str);
+
+            __disable_irq(); // handling race condition
             LCD_Update(MOTOR_SPEED, motor_str);
+            LCD_Update(CONVEYOR_SPEED, speed_str);
             __enable_irq();
         }
         else
@@ -69,7 +79,7 @@ void EXTI_Callout(void)
 {
     // emergency
     emergency_flag = 1;
-    PWM_SetDutyCycle(0); // Stop the motor
+    PWM_Stop();
     LCD_Write(0x01, 0);  // Clear display
     Delay_ms(10);
     LCD_Write(0x80, 0); // line 1
@@ -83,16 +93,14 @@ void EXTI_reset(void)
     NVIC_SystemReset();
 }
 
-float measure_conveyor_speed(void)
-{
-    uint32 first_capture = 0;
-    uint32 second_capture = 0;
-    uint32 difference;
-    float frequency;
-
+uint16 measure_conveyor_speed(void){
+    uint16 first_capture = 0;
+    uint16 second_capture = 0;
+    uint16 difference;
+    uint16 frequency;
     uint16 prev_cnt = 0;
     uint16 current_cnt = 0;
-    uint32 overflow_count = 0;
+    uint16 overflow_count = 0;
 
     // Wait for first capture
     while (!Timer_CheckCapture(TIM2_BASE, 1, &first_capture))

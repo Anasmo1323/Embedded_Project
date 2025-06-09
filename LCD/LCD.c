@@ -15,9 +15,9 @@ void LCD_Init(void) {
     // This delay is necessary to give more time for the LCD to process the clear command
     //When I didn't use delay the first character got ignored because the clear wasn't done yet
     LCD_Write(0x80, LOW); // Set cursor to Line 1, position 1
-    LCD_Print("CS: 0   MS: 0  %");
+    LCD_Print("OC: 0   MS: 0  %");
     LCD_Write(0xC0, LOW); // Set cursor to Line 2, position 1
-    LCD_Print("OC: 0   ES: 0  ");
+    LCD_Print("CS: 0");
 }
 
 void LCD_Write(uint8 data, uint8 rs) {
@@ -52,9 +52,9 @@ void LCD_Update(uint8 to_be_updated, char* update) {
         case OBJECT_COUNT:
             LCD_Write(OBJECT_COUNT, 0);
             break;
-        case EMERGENCY_STATUS:
-            LCD_Write(EMERGENCY_STATUS, 0);
-            break;
+        // case EMERGENCY_STATUS:
+        //     LCD_Write(EMERGENCY_STATUS, 0);
+        //     break;
         default:
             return;
 

@@ -35,6 +35,15 @@ typedef struct {
     uint32 RESERVED0[24];  // start at 0x11C + 0x04 = 0x120 , 0x180 - 0x 120 = 0x60==> dec(96 /  4 )
     uint32  NVIC_ICER[8]; // 0x180 - 0x19C
 
+    uint32  RESERVED1[24];   // Reserved space
+    uint32  NVIC_ISPR[8];    // 0xE000E200 - 0xE000E21C: Set pending
+    uint32  RESERVED2[24];   // Reserved space
+    uint32  NVIC_ICPR[8];    // 0xE000E280 - 0xE000E29C: Clear pending
+    uint32  RESERVED3[24];   // Reserved space
+    uint32  NVIC_IABR[8];    // 0xE000E300 - 0xE000E31C: Active bit
+    uint32  RESERVED4[56];   // Reserved space
+    uint8   NVIC_IPR[240];   // 0xE000E400 - 0xE000E4EF: Priority registers (byte accessible)
+
 } NVIC_Type_;
 
 #define NVIC_b          ((NVIC_Type_*)0xE000E100)

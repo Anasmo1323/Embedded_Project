@@ -59,7 +59,7 @@ void Timer_Init(uint32 TimerBase, uint8 Channel, uint8 Mode, uint32 Prescaler, u
     timer->CR1 |= (1 << 0); // CEN = 1
 }
 
-uint8 Timer_CheckCapture(uint32 TimerBase, uint8 Channel, uint32 *CaptureValue)
+uint8 Timer_CheckCapture(uint32 TimerBase, uint8 Channel, uint16 *CaptureValue)
 {
     TimerReg *timer = (TimerReg *)TimerBase;
 

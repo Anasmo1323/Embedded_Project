@@ -71,15 +71,16 @@ uint8 getVTPosition(uint8 line) {
     return position;
 }
  void EXTI4_IRQHandler() {
-    if (EXTI_b->PR & (1 << 4)) {
-        EXTI_b->PR |= (1 << 4);    
+    if (EXTI_b->PR & (1 << 4)) {   
         EXTI_Callout();
+        EXTI_b->PR |= (1 << 4); 
     }
 }
 
  void EXTI15_10_IRQHandler() {
-    if (EXTI_b->PR & (1 << 10)) {
-        EXTI_b->PR |= (1 << 10);    
+    if (EXTI_b->PR & (1 << 10)) {  
         EXTI_reset();
+        EXTI_b->PR |= (1 << 10);  
     }
 }
+

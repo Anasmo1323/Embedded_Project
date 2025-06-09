@@ -11,10 +11,10 @@
 #define LCD_PORT GPIO_E
 #define LCD_RS 9  // PE9
 #define LCD_E  8  // PE8
-#define CONVEYOR_SPEED (0x80 | 0x04)
+#define  OBJECT_COUNT (0x80 | 0x04)
 #define MOTOR_SPEED (0x80 | 0x0C)
-#define OBJECT_COUNT (0x80 | 0x44)
-#define EMERGENCY_STATUS (0x80 | 0x4C)
+#define CONVEYOR_SPEED (0x80 | 0x44)
+// #define EMERGENCY_STATUS (0x80 | 0x4C)
 
 void LCD_Write(uint8 data, uint8 rs);
 void LCD_Init(void);
