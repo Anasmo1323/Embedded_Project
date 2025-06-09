@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Downloads/embedded/emb-proj-base/stm32f4-template/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

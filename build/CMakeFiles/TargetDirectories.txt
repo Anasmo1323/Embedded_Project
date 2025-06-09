@@ -1,0 +1,3 @@
+D:/Downloads/embedded/emb-proj-base/stm32f4-template/build/CMakeFiles/task4.dir
+D:/Downloads/embedded/emb-proj-base/stm32f4-template/build/CMakeFiles/edit_cache.dir
+D:/Downloads/embedded/emb-proj-base/stm32f4-template/build/CMakeFiles/rebuild_cache.dir

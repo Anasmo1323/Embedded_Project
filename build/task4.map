@@ -1,0 +1,1032 @@
+Archive member included to satisfy reference by file (symbol)
+
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-exit.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crt0.o (exit)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-exit.o) (__stdio_exit_handler)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fwalk.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o) (_fwalk_sglue)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-snprintf.o)
+                              CMakeFiles/task4.dir/LCD/LCD.c.obj (snprintf)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-stdio.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o) (__sread)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memset.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crt0.o (memset)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-closer.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-stdio.o) (_close_r)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reent.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-closer.o) (errno)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-impure.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-snprintf.o) (_impure_ptr)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lseekr.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-stdio.o) (_lseek_r)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-readr.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-stdio.o) (_read_r)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-writer.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-stdio.o) (_write_r)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-errno.o)
+                              CMakeFiles/task4.dir/src/syscalls.c.obj (__errno)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crt0.o (__libc_init_array)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o) (__retarget_lock_init_recursive)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-strlen.o)
+                              CMakeFiles/task4.dir/LCD/LCD.c.obj (strlen)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-freer.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reent.o) (_free_r)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mallocr.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o) (_malloc_r)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mlock.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-freer.o) (__malloc_lock)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-snprintf.o) (_svfprintf_r)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o) (_printf_i)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fflush.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o) (_fflush_r)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memmove.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o) (memmove)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-sbrkr.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mallocr.o) (_sbrk_r)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memchr.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o) (memchr)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o) (memcpy)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reallocr.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o) (_realloc_r)
+D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-msizer.o)
+                              D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reallocr.o) (_malloc_usable_size_r)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crti.o
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crti.o
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crti.o
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .rodata.all_implied_fbits
+                0x00000000       0x24 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .data.__dso_handle
+                0x00000000        0x4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .text          0x00000000       0x7c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crt0.o
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crt0.o
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crt0.o
+ .ARM.extab     0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crt0.o
+ .ARM.exidx     0x00000000       0x10 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crt0.o
+ .debug_line_str
+                0x00000000       0xd3 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crt0.o
+ .ARM.attributes
+                0x00000000       0x1c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crt0.o
+ .text          0x00000000        0x0 CMakeFiles/task4.dir/Adc/Adc.c.obj
+ .data          0x00000000        0x0 CMakeFiles/task4.dir/Adc/Adc.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/task4.dir/Adc/Adc.c.obj
+ .text          0x00000000        0x0 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+ .data          0x00000000        0x0 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+ .text.EXTI_Disable
+                0x00000000       0x64 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+ .text          0x00000000        0x0 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+ .data          0x00000000        0x0 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+ .text          0x00000000        0x0 CMakeFiles/task4.dir/IR/IR.c.obj
+ .data          0x00000000        0x0 CMakeFiles/task4.dir/IR/IR.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/task4.dir/IR/IR.c.obj
+ .text          0x00000000        0x0 CMakeFiles/task4.dir/LCD/LCD.c.obj
+ .data          0x00000000        0x0 CMakeFiles/task4.dir/LCD/LCD.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/task4.dir/LCD/LCD.c.obj
+ .text          0x00000000        0x0 CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+ .data          0x00000000        0x0 CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+ .text          0x00000000        0x0 CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+ .data          0x00000000        0x0 CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+ .text.Rcc_Disable
+                0x00000000       0xa8 CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+ .text          0x00000000        0x0 CMakeFiles/task4.dir/Timer/Timer.c.obj
+ .data          0x00000000        0x0 CMakeFiles/task4.dir/Timer/Timer.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/task4.dir/Timer/Timer.c.obj
+ .text.Timer_GetCounter
+                0x00000000       0x1a CMakeFiles/task4.dir/Timer/Timer.c.obj
+ .text          0x00000000        0x0 CMakeFiles/task4.dir/src/main.c.obj
+ .data          0x00000000        0x0 CMakeFiles/task4.dir/src/main.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/task4.dir/src/main.c.obj
+ .text          0x00000000        0x0 CMakeFiles/task4.dir/src/syscalls.c.obj
+ .data          0x00000000        0x0 CMakeFiles/task4.dir/src/syscalls.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/task4.dir/src/syscalls.c.obj
+ .text          0x00000000        0x0 CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .data          0x00000000        0x0 CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .data.SystemCoreClock
+                0x00000000        0x4 CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .rodata.AHBPrescTable
+                0x00000000       0x10 CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .rodata.APBPrescTable
+                0x00000000        0x8 CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .text.SystemInit
+                0x00000000       0x5c CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .text.SystemCoreClockUpdate
+                0x00000000      0x100 CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .debug_info    0x00000000      0x5af CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .debug_abbrev  0x00000000      0x115 CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .debug_loc     0x00000000       0xa0 CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .debug_aranges
+                0x00000000       0x28 CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .debug_ranges  0x00000000       0x18 CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .debug_line    0x00000000      0x2cc CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .debug_str     0x00000000      0x3cf CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .debug_frame   0x00000000       0x58 CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .ARM.attributes
+                0x00000000       0x2e CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .text          0x00000000       0x14 CMakeFiles/task4.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+ .data          0x00000000        0x0 CMakeFiles/task4.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+ .bss           0x00000000        0x0 CMakeFiles/task4.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-exit.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-exit.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-exit.o)
+ .text.exit     0x00000000       0x24 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-exit.o)
+ .debug_frame   0x00000000       0x28 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-exit.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .text.std      0x00000000       0x6c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .text.stdio_exit_handler
+                0x00000000       0x18 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .text.cleanup_stdio
+                0x00000000       0x40 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .text.__fp_lock
+                0x00000000       0x18 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000       0x18 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .text.global_stdio_init.part.0
+                0x00000000       0x40 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x00000000        0xc D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_release
+                0x00000000        0xc D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .text.__sfp    0x00000000       0xa4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .text.__sinit  0x00000000       0x30 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x1c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x1c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .data.__sglue  0x00000000        0xc D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .bss.__stdio_exit_handler
+                0x00000000        0x4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fwalk.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fwalk.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fwalk.o)
+ .text._fwalk_sglue
+                0x00000000       0x3c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fwalk.o)
+ .debug_frame   0x00000000       0x34 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fwalk.o)
+ .ARM.attributes
+                0x00000000       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fwalk.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-snprintf.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-snprintf.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-snprintf.o)
+ .text._snprintf_r
+                0x00000000       0x64 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-snprintf.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-stdio.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-stdio.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-stdio.o)
+ .text.__sread  0x00000000       0x22 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-stdio.o)
+ .text.__swrite
+                0x00000000       0x38 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-stdio.o)
+ .text.__sseek  0x00000000       0x26 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-stdio.o)
+ .text.__sclose
+                0x00000000        0x8 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-stdio.o)
+ .debug_frame   0x00000000       0x88 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-stdio.o)
+ .ARM.attributes
+                0x00000000       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-stdio.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memset.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memset.o)
+ .text.memset   0x00000000       0x10 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memset.o)
+ .debug_frame   0x00000000       0x20 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memset.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-closer.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-closer.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-closer.o)
+ .text._close_r
+                0x00000000       0x20 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-closer.o)
+ .debug_frame   0x00000000       0x2c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-closer.o)
+ .ARM.attributes
+                0x00000000       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-closer.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reent.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reent.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xbc D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reent.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-impure.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-impure.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-impure.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lseekr.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lseekr.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lseekr.o)
+ .text._lseek_r
+                0x00000000       0x24 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lseekr.o)
+ .debug_frame   0x00000000       0x2c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lseekr.o)
+ .ARM.attributes
+                0x00000000       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lseekr.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-readr.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-readr.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-readr.o)
+ .text._read_r  0x00000000       0x24 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-readr.o)
+ .debug_frame   0x00000000       0x2c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-readr.o)
+ .ARM.attributes
+                0x00000000       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-readr.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-writer.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-writer.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-writer.o)
+ .text._write_r
+                0x00000000       0x24 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-writer.o)
+ .debug_frame   0x00000000       0x2c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-writer.o)
+ .ARM.attributes
+                0x00000000       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-writer.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-errno.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-errno.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-errno.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x2 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x2 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x2 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x2 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x2 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x2 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .bss.__lock___arc4random_mutex
+                0x00000000        0x1 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .bss.__lock___dd_hash_mutex
+                0x00000000        0x1 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .bss.__lock___tz_mutex
+                0x00000000        0x1 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .bss.__lock___env_recursive_mutex
+                0x00000000        0x1 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .bss.__lock___at_quick_exit_mutex
+                0x00000000        0x1 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .bss.__lock___atexit_recursive_mutex
+                0x00000000        0x1 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .bss.__lock___sfp_recursive_mutex
+                0x00000000        0x1 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-strlen.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-strlen.o)
+ .ARM.extab     0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-strlen.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-freer.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-freer.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-freer.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mallocr.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mallocr.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mallocr.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mlock.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mlock.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mlock.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+ .text.__ssprint_r
+                0x00000000       0xf4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fflush.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fflush.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fflush.o)
+ .text.__sflush_r
+                0x00000000       0xfc D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fflush.o)
+ .text._fflush_r
+                0x00000000       0x50 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fflush.o)
+ .text.fflush   0x00000000       0x28 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fflush.o)
+ .debug_frame   0x00000000       0x5c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fflush.o)
+ .ARM.attributes
+                0x00000000       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-fflush.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memmove.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memmove.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memmove.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-sbrkr.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-sbrkr.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-sbrkr.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memchr.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memchr.o)
+ .ARM.extab     0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memchr.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reallocr.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reallocr.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reallocr.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-msizer.o)
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-msizer.o)
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-msizer.o)
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtend.o
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtend.o
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtend.o
+ .rodata.all_implied_fbits
+                0x00000000       0x24 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtend.o
+ .eh_frame      0x00000000        0x4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtend.o
+ .text          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtn.o
+ .data          0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtn.o
+ .bss           0x00000000        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00080000         xr
+RAM              0x20000000         0x00018000         xrw
+CCMRAM           0x10000000         0x00000000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crti.o
+LOAD D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+LOAD D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crt0.o
+LOAD CMakeFiles/task4.dir/Adc/Adc.c.obj
+LOAD CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+LOAD CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+LOAD CMakeFiles/task4.dir/IR/IR.c.obj
+LOAD CMakeFiles/task4.dir/LCD/LCD.c.obj
+LOAD CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+LOAD CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+LOAD CMakeFiles/task4.dir/Timer/Timer.c.obj
+LOAD CMakeFiles/task4.dir/src/main.c.obj
+LOAD CMakeFiles/task4.dir/src/syscalls.c.obj
+LOAD CMakeFiles/task4.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+LOAD CMakeFiles/task4.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+START GROUP
+LOAD D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libgcc.a
+LOAD D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a
+LOAD D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libc_nano.a
+END GROUP
+START GROUP
+LOAD D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libgcc.a
+LOAD D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libc_nano.a
+END GROUP
+LOAD D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtend.o
+LOAD D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtn.o
+                0x20018000                        __end_stack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x08000000      0x194
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x194 CMakeFiles/task4.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+                0x08000194                        . = ALIGN (0x4)
+
+.text           0x080001a0     0x1878
+                0x080001a0                        . = ALIGN (0x4)
+                0x080001a0                        __text_start = .
+ *(.text)
+ .text          0x080001a0       0x10 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-strlen.o)
+                0x080001a0                strlen
+ .text          0x080001b0       0xa0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memchr.o)
+                0x080001b0                memchr
+ *(.text*)
+ .text.deregister_tm_clones
+                0x08000250       0x1c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .text.register_tm_clones
+                0x0800026c       0x24 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .text.__do_global_dtors_aux
+                0x08000290       0x28 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .text.frame_dummy
+                0x080002b8       0x24 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .text.ADC_Init
+                0x080002dc       0xa0 CMakeFiles/task4.dir/Adc/Adc.c.obj
+                0x080002dc                ADC_Init
+ .text.ADC_Read
+                0x0800037c       0x48 CMakeFiles/task4.dir/Adc/Adc.c.obj
+                0x0800037c                ADC_Read
+ .text.EXTI_Init
+                0x080003c4       0xfc CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+                0x080003c4                EXTI_Init
+ .text.EXTI_Enable
+                0x080004c0       0x60 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+                0x080004c0                EXTI_Enable
+ .text.getVTPosition
+                0x08000520       0x3a CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+                0x08000520                getVTPosition
+ *fill*         0x0800055a        0x2 
+ .text.EXTI4_IRQHandler
+                0x0800055c       0x28 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+                0x0800055c                EXTI4_IRQHandler
+ .text.EXTI15_10_IRQHandler
+                0x08000584       0x28 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+                0x08000584                EXTI15_10_IRQHandler
+ .text.Gpio_Init
+                0x080005ac       0xb8 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+                0x080005ac                Gpio_Init
+ .text.Gpio_WritePin
+                0x08000664       0x72 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+                0x08000664                Gpio_WritePin
+ .text.Gpio_ReadPin
+                0x080006d6       0x54 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+                0x080006d6                Gpio_ReadPin
+ .text.GPIO_SetAlternateFunction
+                0x0800072a       0xa8 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+                0x0800072a                GPIO_SetAlternateFunction
+ *fill*         0x080007d2        0x2 
+ .text.IR_Init  0x080007d4       0x20 CMakeFiles/task4.dir/IR/IR.c.obj
+                0x080007d4                IR_Init
+ .text.IR_ObjectCounter
+                0x080007f4       0x70 CMakeFiles/task4.dir/IR/IR.c.obj
+                0x080007f4                IR_ObjectCounter
+ .text.LCD_Init
+                0x08000864       0x80 CMakeFiles/task4.dir/LCD/LCD.c.obj
+                0x08000864                LCD_Init
+ .text.LCD_Write
+                0x080008e4       0x68 CMakeFiles/task4.dir/LCD/LCD.c.obj
+                0x080008e4                LCD_Write
+ .text.LCD_Print
+                0x0800094c       0x34 CMakeFiles/task4.dir/LCD/LCD.c.obj
+                0x0800094c                LCD_Print
+ .text.LCD_Update
+                0x08000980       0x78 CMakeFiles/task4.dir/LCD/LCD.c.obj
+                0x08000980                LCD_Update
+ .text.Delay_ms
+                0x080009f8       0x30 CMakeFiles/task4.dir/LCD/LCD.c.obj
+                0x080009f8                Delay_ms
+ .text.uint16_to_string
+                0x08000a28       0x24 CMakeFiles/task4.dir/LCD/LCD.c.obj
+                0x08000a28                uint16_to_string
+ .text.PWM_Init
+                0x08000a4c       0xa0 CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+                0x08000a4c                PWM_Init
+ .text.PWM_SetDutyCycle
+                0x08000aec       0x4c CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+                0x08000aec                PWM_SetDutyCycle
+ .text.PWM_Stop
+                0x08000b38       0x20 CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+                0x08000b38                PWM_Stop
+ .text.Rcc_Init
+                0x08000b58       0x1c CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+                0x08000b58                Rcc_Init
+ .text.Rcc_Enable
+                0x08000b74       0xa8 CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+                0x08000b74                Rcc_Enable
+ .text.Timer_Init
+                0x08000c1c      0x160 CMakeFiles/task4.dir/Timer/Timer.c.obj
+                0x08000c1c                Timer_Init
+ .text.Timer_CheckCapture
+                0x08000d7c       0xac CMakeFiles/task4.dir/Timer/Timer.c.obj
+                0x08000d7c                Timer_CheckCapture
+ .text.__NVIC_SystemReset
+                0x08000e28       0x2c CMakeFiles/task4.dir/src/main.c.obj
+ .text.main     0x08000e54      0x104 CMakeFiles/task4.dir/src/main.c.obj
+                0x08000e54                main
+ .text.EXTI_Callout
+                0x08000f58       0x48 CMakeFiles/task4.dir/src/main.c.obj
+                0x08000f58                EXTI_Callout
+ .text.EXTI_reset
+                0x08000fa0        0xc CMakeFiles/task4.dir/src/main.c.obj
+                0x08000fa0                EXTI_reset
+ .text.measure_conveyor_speed
+                0x08000fac       0x88 CMakeFiles/task4.dir/src/main.c.obj
+                0x08000fac                measure_conveyor_speed
+ .text._sbrk    0x08001034       0x1e CMakeFiles/task4.dir/src/syscalls.c.obj
+                0x08001034                _sbrk
+ *fill*         0x08001052        0x2 
+ .text.Reset_Handler
+                0x08001054       0x44 CMakeFiles/task4.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+                0x08001054                Reset_Handler
+ .text.Default_Handler
+                0x08001098        0x2 CMakeFiles/task4.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+                0x08001098                RTC_Alarm_IRQHandler
+                0x08001098                EXTI2_IRQHandler
+                0x08001098                DebugMon_Handler
+                0x08001098                SPI4_IRQHandler
+                0x08001098                TIM1_CC_IRQHandler
+                0x08001098                DMA2_Stream5_IRQHandler
+                0x08001098                HardFault_Handler
+                0x08001098                DMA1_Stream5_IRQHandler
+                0x08001098                SysTick_Handler
+                0x08001098                PVD_IRQHandler
+                0x08001098                SDIO_IRQHandler
+                0x08001098                TAMP_STAMP_IRQHandler
+                0x08001098                PendSV_Handler
+                0x08001098                NMI_Handler
+                0x08001098                EXTI3_IRQHandler
+                0x08001098                TIM1_UP_TIM10_IRQHandler
+                0x08001098                I2C3_ER_IRQHandler
+                0x08001098                EXTI0_IRQHandler
+                0x08001098                I2C2_EV_IRQHandler
+                0x08001098                DMA1_Stream2_IRQHandler
+                0x08001098                FPU_IRQHandler
+                0x08001098                UsageFault_Handler
+                0x08001098                DMA2_Stream2_IRQHandler
+                0x08001098                SPI1_IRQHandler
+                0x08001098                TIM1_BRK_TIM9_IRQHandler
+                0x08001098                DMA2_Stream3_IRQHandler
+                0x08001098                USART6_IRQHandler
+                0x08001098                DMA2_Stream0_IRQHandler
+                0x08001098                TIM4_IRQHandler
+                0x08001098                I2C1_EV_IRQHandler
+                0x08001098                DMA1_Stream6_IRQHandler
+                0x08001098                DMA1_Stream1_IRQHandler
+                0x08001098                TIM3_IRQHandler
+                0x08001098                RCC_IRQHandler
+                0x08001098                Default_Handler
+                0x08001098                ADC_IRQHandler
+                0x08001098                DMA1_Stream7_IRQHandler
+                0x08001098                TIM5_IRQHandler
+                0x08001098                DMA2_Stream7_IRQHandler
+                0x08001098                I2C3_EV_IRQHandler
+                0x08001098                EXTI9_5_IRQHandler
+                0x08001098                RTC_WKUP_IRQHandler
+                0x08001098                SPI2_IRQHandler
+                0x08001098                MemManage_Handler
+                0x08001098                DMA1_Stream0_IRQHandler
+                0x08001098                SVC_Handler
+                0x08001098                WWDG_IRQHandler
+                0x08001098                TIM2_IRQHandler
+                0x08001098                OTG_FS_WKUP_IRQHandler
+                0x08001098                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08001098                EXTI1_IRQHandler
+                0x08001098                USART2_IRQHandler
+                0x08001098                I2C2_ER_IRQHandler
+                0x08001098                DMA2_Stream1_IRQHandler
+                0x08001098                FLASH_IRQHandler
+                0x08001098                DMA2_Stream4_IRQHandler
+                0x08001098                BusFault_Handler
+                0x08001098                USART1_IRQHandler
+                0x08001098                OTG_FS_IRQHandler
+                0x08001098                SPI3_IRQHandler
+                0x08001098                DMA1_Stream4_IRQHandler
+                0x08001098                I2C1_ER_IRQHandler
+                0x08001098                DMA2_Stream6_IRQHandler
+                0x08001098                DMA1_Stream3_IRQHandler
+ *fill*         0x0800109a        0x2 
+ .text.snprintf
+                0x0800109c       0x6c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-snprintf.o)
+                0x0800109c                sniprintf
+                0x0800109c                snprintf
+ .text.__errno  0x08001108        0xc D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-errno.o)
+                0x08001108                __errno
+ .text.__libc_init_array
+                0x08001114       0x48 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+                0x08001114                __libc_init_array
+ .text.__retarget_lock_acquire_recursive
+                0x0800115c        0x2 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+                0x0800115c                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x0800115e        0x2 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+                0x0800115e                __retarget_lock_release_recursive
+ .text._free_r  0x08001160       0x94 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-freer.o)
+                0x08001160                _free_r
+ .text.sbrk_aligned
+                0x080011f4       0x44 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mallocr.o)
+ .text._malloc_r
+                0x08001238      0x100 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mallocr.o)
+                0x08001238                _malloc_r
+ .text.__malloc_lock
+                0x08001338        0xc D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mlock.o)
+                0x08001338                __malloc_lock
+ .text.__malloc_unlock
+                0x08001344        0xc D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mlock.o)
+                0x08001344                __malloc_unlock
+ .text.__ssputs_r
+                0x08001350       0xc0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+                0x08001350                __ssputs_r
+ .text._svfprintf_r
+                0x08001410      0x1f8 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+                0x08001410                _svfiprintf_r
+                0x08001410                _svfprintf_r
+ .text._printf_common
+                0x08001608       0xda D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08001608                _printf_common
+ *fill*         0x080016e2        0x2 
+ .text._printf_i
+                0x080016e4      0x240 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x080016e4                _printf_i
+ .text.memmove  0x08001924       0x32 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memmove.o)
+                0x08001924                memmove
+ *fill*         0x08001956        0x2 
+ .text._sbrk_r  0x08001958       0x20 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-sbrkr.o)
+                0x08001958                _sbrk_r
+ .text.memcpy   0x08001978       0x1c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+                0x08001978                memcpy
+ .text._realloc_r
+                0x08001994       0x5c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reallocr.o)
+                0x08001994                _realloc_r
+ .text._malloc_usable_size_r
+                0x080019f0       0x10 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-msizer.o)
+                0x080019f0                _malloc_usable_size_r
+ *(.glue_7)
+ .glue_7        0x08001a00        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x08001a00        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x08001a00        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ *(.init)
+ .init          0x08001a00        0x4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crti.o
+                0x08001a00                _init
+ .init          0x08001a04        0x8 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtn.o
+ *(.fini)
+ .fini          0x08001a0c        0x4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crti.o
+                0x08001a0c                _fini
+ .fini          0x08001a10        0x8 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtn.o
+                0x08001a18                        . = ALIGN (0x4)
+                0x08001a18                        __text_end = .
+
+.vfp11_veneer   0x08001a18        0x0
+ .vfp11_veneer  0x08001a18        0x0 linker stubs
+
+.v4_bx          0x08001a18        0x0
+ .v4_bx         0x08001a18        0x0 linker stubs
+
+.iplt           0x08001a18        0x0
+ .iplt          0x08001a18        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+
+.rodata         0x08001a18       0x78
+                0x08001a18                        . = ALIGN (0x4)
+                0x08001a18                        __rodata_start = .
+ *(.rodata)
+ .rodata        0x08001a18       0x23 CMakeFiles/task4.dir/LCD/LCD.c.obj
+ *fill*         0x08001a3b        0x1 
+ .rodata        0x08001a3c       0x1f CMakeFiles/task4.dir/src/main.c.obj
+ *(.rodata*)
+ .rodata._svfprintf_r.str1.1
+                0x08001a5b       0x33 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+                                 0x11 (size before relaxing)
+ .rodata._printf_i.str1.1
+                0x08001a8e       0x22 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08001ab0                        . = ALIGN (0x4)
+ *fill*         0x08001a8e        0x2 
+                0x08001a90                        __rodata_end = .
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x08001a90        0x8
+                0x08001a90                        __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x08001a90        0x8 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-strlen.o)
+ .ARM.exidx     0x08001a98        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memchr.o)
+                                  0x8 (size before relaxing)
+                0x08001a98                        __exidx_end = .
+
+.rel.dyn        0x08001a98        0x0
+ .rel.iplt      0x08001a98        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+
+.preinit_array  0x08001a98        0x0
+                0x08001a98                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x08001a98                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x08001a98        0x4
+                0x08001a98                        PROVIDE (__init_array_start = .)
+ *(.init_array*)
+ .init_array    0x08001a98        0x4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08001a9c                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x08001a9c        0x4
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(.fini_array*)
+ .fini_array    0x08001a9c        0x4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x08001aa0                        __data_flash_start = LOADADDR (.data)
+
+.data           0x20000000       0x54 load address 0x08001aa0
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        __data_start = .
+ *(.data)
+ *(.data*)
+ .data.pin_state
+                0x20000000        0x1 CMakeFiles/task4.dir/IR/IR.c.obj
+ .data.last_pin_state
+                0x20000001        0x1 CMakeFiles/task4.dir/IR/IR.c.obj
+ *fill*         0x20000002        0x2 
+ .data._impure_ptr
+                0x20000004        0x4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-impure.o)
+                0x20000004                _impure_ptr
+ .data._impure_data
+                0x20000008       0x4c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-impure.o)
+                0x20000008                _impure_data
+                0x20000054                        . = ALIGN (0x4)
+                0x20000054                        __data_end = .
+
+.tm_clone_table
+                0x20000054        0x0 load address 0x08001af4
+ .tm_clone_table
+                0x20000054        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .tm_clone_table
+                0x20000054        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtend.o
+
+.igot.plt       0x20000054        0x0 load address 0x08001af4
+ .igot.plt      0x20000054        0x0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+
+.bss            0x20000054      0x174 load address 0x08001af4
+                0x20000054                        . = ALIGN (0x4)
+                0x20000054                        __bss_start = .
+                0x20000054                        __bss_start__ = __bss_start
+ *(.bss)
+ *(.bss*)
+ .bss.completed.1
+                0x20000054        0x1 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ *fill*         0x20000055        0x3 
+ .bss.object.0  0x20000058       0x18 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .bss.object_count
+                0x20000070        0x2 CMakeFiles/task4.dir/IR/IR.c.obj
+ *fill*         0x20000072        0x2 
+ .bss.count_str
+                0x20000074        0x4 CMakeFiles/task4.dir/IR/IR.c.obj
+ .bss.emergency_flag
+                0x20000078        0x1 CMakeFiles/task4.dir/src/main.c.obj
+                0x20000078                emergency_flag
+ .bss.capture_state.2
+                0x20000079        0x1 CMakeFiles/task4.dir/src/main.c.obj
+ .bss.first_capture.1
+                0x2000007a        0x2 CMakeFiles/task4.dir/src/main.c.obj
+ .bss.last_frequency.0
+                0x2000007c        0x2 CMakeFiles/task4.dir/src/main.c.obj
+ *fill*         0x2000007e        0x2 
+ .bss.__sf      0x20000080      0x138 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+                0x20000080                __sf
+ .bss.errno     0x200001b8        0x4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reent.o)
+                0x200001b8                errno
+ .bss.__lock___malloc_recursive_mutex
+                0x200001bc        0x1 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+                0x200001bc                __lock___malloc_recursive_mutex
+ *fill*         0x200001bd        0x3 
+ .bss.__malloc_sbrk_start
+                0x200001c0        0x4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mallocr.o)
+                0x200001c0                __malloc_sbrk_start
+ .bss.__malloc_free_list
+                0x200001c4        0x4 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mallocr.o)
+                0x200001c4                __malloc_free_list
+ *(COMMON)
+                0x200001c8                        . = ALIGN (0x4)
+                0x200001c8                        __bss_end = .
+                0x200001c8                        __bss_end__ = __bss_end
+                0x08001af4                        __cmmdata_flash_start = LOADADDR (.ccmram)
+
+.ccmram         0x10000000        0x0 load address 0x08001af4
+                0x10000000                        . = ALIGN (0x4)
+                0x10000000                        __ccmdata_start = .
+ *(.ccmram)
+ *(.ccmram*)
+                0x10000000                        . = ALIGN (0x4)
+                0x10000000                        __ccmdata_end = .
+
+._user_heap_stack
+                0x200001c8      0x600
+                0x200001c8                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x200003c8                        . = (. + 0x200)
+ *fill*         0x200001c8      0x200 
+                0x200007c8                        . = (. + 0x400)
+ *fill*         0x200003c8      0x400 
+                0x200007c8                        . = ALIGN (0x4)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x2a
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crti.o
+ .ARM.attributes
+                0x0000001e       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .ARM.attributes
+                0x0000004c       0x2e CMakeFiles/task4.dir/Adc/Adc.c.obj
+ .ARM.attributes
+                0x0000007a       0x2e CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+ .ARM.attributes
+                0x000000a8       0x2e CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+ .ARM.attributes
+                0x000000d6       0x2e CMakeFiles/task4.dir/IR/IR.c.obj
+ .ARM.attributes
+                0x00000104       0x2e CMakeFiles/task4.dir/LCD/LCD.c.obj
+ .ARM.attributes
+                0x00000132       0x2e CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+ .ARM.attributes
+                0x00000160       0x2e CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+ .ARM.attributes
+                0x0000018e       0x2e CMakeFiles/task4.dir/Timer/Timer.c.obj
+ .ARM.attributes
+                0x000001bc       0x2e CMakeFiles/task4.dir/src/main.c.obj
+ .ARM.attributes
+                0x000001ea       0x2e CMakeFiles/task4.dir/src/syscalls.c.obj
+ .ARM.attributes
+                0x00000218       0x1c CMakeFiles/task4.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+ .ARM.attributes
+                0x00000234       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .ARM.attributes
+                0x00000262       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-snprintf.o)
+ .ARM.attributes
+                0x00000290       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reent.o)
+ .ARM.attributes
+                0x000002be       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-impure.o)
+ .ARM.attributes
+                0x000002ec       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-errno.o)
+ .ARM.attributes
+                0x0000031a       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x00000348       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .ARM.attributes
+                0x00000376       0x17 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-strlen.o)
+ .ARM.attributes
+                0x0000038d       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-freer.o)
+ .ARM.attributes
+                0x000003bb       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mallocr.o)
+ .ARM.attributes
+                0x000003e9       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mlock.o)
+ .ARM.attributes
+                0x00000417       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+ .ARM.attributes
+                0x00000445       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x00000473       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memmove.o)
+ .ARM.attributes
+                0x000004a1       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-sbrkr.o)
+ .ARM.attributes
+                0x000004cf       0x1c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memchr.o)
+ .ARM.attributes
+                0x000004eb       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000519       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reallocr.o)
+ .ARM.attributes
+                0x00000547       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-msizer.o)
+ .ARM.attributes
+                0x00000575       0x2e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtend.o
+ .ARM.attributes
+                0x000005a3       0x1e D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtn.o
+OUTPUT(task4.elf elf32-littlearm)
+LOAD linker stubs
+LOAD D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libc.a
+LOAD D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libm.a
+LOAD D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libgcc.a
+
+.debug_info     0x00000000     0x1c12
+ .debug_info    0x00000000      0x251 CMakeFiles/task4.dir/Adc/Adc.c.obj
+ .debug_info    0x00000251      0x438 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+ .debug_info    0x00000689      0x2c0 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+ .debug_info    0x00000949      0x1c7 CMakeFiles/task4.dir/IR/IR.c.obj
+ .debug_info    0x00000b10      0x2dc CMakeFiles/task4.dir/LCD/LCD.c.obj
+ .debug_info    0x00000dec      0x290 CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+ .debug_info    0x0000107c      0x131 CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+ .debug_info    0x000011ad      0x338 CMakeFiles/task4.dir/Timer/Timer.c.obj
+ .debug_info    0x000014e5      0x62d CMakeFiles/task4.dir/src/main.c.obj
+ .debug_info    0x00001b12       0xd0 CMakeFiles/task4.dir/src/syscalls.c.obj
+ .debug_info    0x00001be2       0x30 CMakeFiles/task4.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+
+.debug_abbrev   0x00000000      0xa13
+ .debug_abbrev  0x00000000       0xdf CMakeFiles/task4.dir/Adc/Adc.c.obj
+ .debug_abbrev  0x000000df      0x191 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+ .debug_abbrev  0x00000270       0xe7 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+ .debug_abbrev  0x00000357       0xb4 CMakeFiles/task4.dir/IR/IR.c.obj
+ .debug_abbrev  0x0000040b      0x128 CMakeFiles/task4.dir/LCD/LCD.c.obj
+ .debug_abbrev  0x00000533       0xf8 CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+ .debug_abbrev  0x0000062b       0x88 CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+ .debug_abbrev  0x000006b3       0xfb CMakeFiles/task4.dir/Timer/Timer.c.obj
+ .debug_abbrev  0x000007ae      0x1c2 CMakeFiles/task4.dir/src/main.c.obj
+ .debug_abbrev  0x00000970       0x86 CMakeFiles/task4.dir/src/syscalls.c.obj
+ .debug_abbrev  0x000009f6       0x1d CMakeFiles/task4.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+
+.debug_loc      0x00000000      0xa30
+ .debug_loc     0x00000000       0x70 CMakeFiles/task4.dir/Adc/Adc.c.obj
+ .debug_loc     0x00000070      0x1a4 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+ .debug_loc     0x00000214      0x170 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+ .debug_loc     0x00000384       0x58 CMakeFiles/task4.dir/IR/IR.c.obj
+ .debug_loc     0x000003dc      0x1ec CMakeFiles/task4.dir/LCD/LCD.c.obj
+ .debug_loc     0x000005c8      0x108 CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+ .debug_loc     0x000006d0       0xfc CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+ .debug_loc     0x000007cc      0x108 CMakeFiles/task4.dir/Timer/Timer.c.obj
+ .debug_loc     0x000008d4      0x10c CMakeFiles/task4.dir/src/main.c.obj
+ .debug_loc     0x000009e0       0x50 CMakeFiles/task4.dir/src/syscalls.c.obj
+
+.debug_aranges  0x00000000      0x230
+ .debug_aranges
+                0x00000000       0x28 CMakeFiles/task4.dir/Adc/Adc.c.obj
+ .debug_aranges
+                0x00000028       0x48 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+ .debug_aranges
+                0x00000070       0x38 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+ .debug_aranges
+                0x000000a8       0x28 CMakeFiles/task4.dir/IR/IR.c.obj
+ .debug_aranges
+                0x000000d0       0x48 CMakeFiles/task4.dir/LCD/LCD.c.obj
+ .debug_aranges
+                0x00000118       0x30 CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+ .debug_aranges
+                0x00000148       0x30 CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+ .debug_aranges
+                0x00000178       0x30 CMakeFiles/task4.dir/Timer/Timer.c.obj
+ .debug_aranges
+                0x000001a8       0x40 CMakeFiles/task4.dir/src/main.c.obj
+ .debug_aranges
+                0x000001e8       0x20 CMakeFiles/task4.dir/src/syscalls.c.obj
+ .debug_aranges
+                0x00000208       0x28 CMakeFiles/task4.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+
+.debug_ranges   0x00000000      0x188
+ .debug_ranges  0x00000000       0x18 CMakeFiles/task4.dir/Adc/Adc.c.obj
+ .debug_ranges  0x00000018       0x38 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+ .debug_ranges  0x00000050       0x28 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+ .debug_ranges  0x00000078       0x18 CMakeFiles/task4.dir/IR/IR.c.obj
+ .debug_ranges  0x00000090       0x38 CMakeFiles/task4.dir/LCD/LCD.c.obj
+ .debug_ranges  0x000000c8       0x20 CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+ .debug_ranges  0x000000e8       0x20 CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+ .debug_ranges  0x00000108       0x20 CMakeFiles/task4.dir/Timer/Timer.c.obj
+ .debug_ranges  0x00000128       0x30 CMakeFiles/task4.dir/src/main.c.obj
+ .debug_ranges  0x00000158       0x10 CMakeFiles/task4.dir/src/syscalls.c.obj
+ .debug_ranges  0x00000168       0x20 CMakeFiles/task4.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+
+.debug_line     0x00000000     0x18f8
+ .debug_line    0x00000000      0x1e3 CMakeFiles/task4.dir/Adc/Adc.c.obj
+ .debug_line    0x000001e3      0x3a0 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+ .debug_line    0x00000583      0x239 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+ .debug_line    0x000007bc      0x1cd CMakeFiles/task4.dir/IR/IR.c.obj
+ .debug_line    0x00000989      0x350 CMakeFiles/task4.dir/LCD/LCD.c.obj
+ .debug_line    0x00000cd9      0x209 CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+ .debug_line    0x00000ee2      0x10a CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+ .debug_line    0x00000fec      0x259 CMakeFiles/task4.dir/Timer/Timer.c.obj
+ .debug_line    0x00001245      0x4fd CMakeFiles/task4.dir/src/main.c.obj
+ .debug_line    0x00001742      0x102 CMakeFiles/task4.dir/src/syscalls.c.obj
+ .debug_line    0x00001844       0xb4 CMakeFiles/task4.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+
+.debug_str      0x00000000      0xa62
+ .debug_str     0x00000000      0xa62 CMakeFiles/task4.dir/Adc/Adc.c.obj
+                                0x247 (size before relaxing)
+ .debug_str     0x00000a62      0x355 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+ .debug_str     0x00000a62      0x2d3 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+ .debug_str     0x00000a62      0x279 CMakeFiles/task4.dir/IR/IR.c.obj
+ .debug_str     0x00000a62      0x297 CMakeFiles/task4.dir/LCD/LCD.c.obj
+ .debug_str     0x00000a62      0x27b CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+ .debug_str     0x00000a62      0x218 CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+ .debug_str     0x00000a62      0x2a9 CMakeFiles/task4.dir/Timer/Timer.c.obj
+ .debug_str     0x00000a62      0x446 CMakeFiles/task4.dir/src/main.c.obj
+ .debug_str     0x00000a62      0x1f3 CMakeFiles/task4.dir/src/syscalls.c.obj
+ .debug_str     0x00000a62       0xb0 CMakeFiles/task4.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+
+.comment        0x00000000       0x45
+ .comment       0x00000000       0x45 CMakeFiles/task4.dir/Adc/Adc.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045       0x46 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/task4.dir/IR/IR.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/task4.dir/LCD/LCD.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/task4.dir/Timer/Timer.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/task4.dir/src/main.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/task4.dir/src/syscalls.c.obj
+
+.debug_frame    0x00000000      0xb50
+ .debug_frame   0x00000000       0x4c CMakeFiles/task4.dir/Adc/Adc.c.obj
+ .debug_frame   0x0000004c       0xe0 CMakeFiles/task4.dir/EXTI/EXTI.c.obj
+ .debug_frame   0x0000012c       0xb0 CMakeFiles/task4.dir/GPIO/GPIO.c.obj
+ .debug_frame   0x000001dc       0x48 CMakeFiles/task4.dir/IR/IR.c.obj
+ .debug_frame   0x00000224       0xec CMakeFiles/task4.dir/LCD/LCD.c.obj
+ .debug_frame   0x00000310       0x84 CMakeFiles/task4.dir/Pwm/Pwm.c.obj
+ .debug_frame   0x00000394       0x80 CMakeFiles/task4.dir/Rcc/Rcc.c.obj
+ .debug_frame   0x00000414       0x84 CMakeFiles/task4.dir/Timer/Timer.c.obj
+ .debug_frame   0x00000498       0xa4 CMakeFiles/task4.dir/src/main.c.obj
+ .debug_frame   0x0000053c       0x34 CMakeFiles/task4.dir/src/syscalls.c.obj
+ .debug_frame   0x00000570      0x144 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .debug_frame   0x000006b4       0x7c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-snprintf.o)
+ .debug_frame   0x00000730       0x38 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reent.o)
+ .debug_frame   0x00000768       0x20 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-errno.o)
+ .debug_frame   0x00000788       0x2c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+ .debug_frame   0x000007b4       0xb0 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-lock.o)
+ .debug_frame   0x00000864       0x20 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-strlen.o)
+ .debug_frame   0x00000884       0x38 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-freer.o)
+ .debug_frame   0x000008bc       0x50 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x0000090c       0x30 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-mlock.o)
+ .debug_frame   0x0000093c       0x90 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_frame   0x000009cc       0x60 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_frame   0x00000a2c       0x28 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memmove.o)
+ .debug_frame   0x00000a54       0x2c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x00000a80       0x4c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memchr.o)
+ .debug_frame   0x00000acc       0x28 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+ .debug_frame   0x00000af4       0x3c D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-reallocr.o)
+ .debug_frame   0x00000b30       0x20 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-msizer.o)
+
+.debug_line_str
+                0x00000000       0xf1
+ .debug_line_str
+                0x00000000       0xf1 D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-strlen.o)
+                                 0xe8 (size before relaxing)
+ .debug_line_str
+                0x000000f1       0xde D:/Downloads/embedded/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-memchr.o)

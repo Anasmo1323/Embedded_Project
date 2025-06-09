@@ -7,8 +7,6 @@
 #include "LCD.h"
 #include "IR.h"
 #include "EXTI.h"
-#include "stm32f4xx.h"
-#include "core_cm4.h"
 #include "Adc.h"
 #include "Pwm.h"
 #include "Timer.h"
@@ -92,46 +90,34 @@ void EXTI_reset(void)
 {
     NVIC_SystemReset();
 }
+uint16 measure_conveyor_speed(void) {
+    // Using static variables to store state between function calls
+    static uint8 capture_state = 0;     // 0: waiting for first capture, 1: waiting for second
+    static uint16 first_capture = 0;
+    static uint16 last_frequency = 0;
 
-uint16 measure_conveyor_speed(void){
-    uint16 first_capture = 0;
-    uint16 second_capture = 0;
-    uint16 difference;
-    uint16 frequency;
-    uint16 prev_cnt = 0;
-    uint16 current_cnt = 0;
-    uint16 overflow_count = 0;
+    uint16 new_capture = 0;
 
-    // Wait for first capture
-    while (!Timer_CheckCapture(TIM2_BASE, 1, &first_capture))
-    {
-        // Do nothing
-    }
-
-    prev_cnt = Timer_GetCounter(TIM2_BASE); // You'll need to implement this wrapper
-
-    // Wait for second capture
-    while (!Timer_CheckCapture(TIM2_BASE, 1, &second_capture))
-    {
-        current_cnt = Timer_GetCounter(TIM2_BASE);
-        if (current_cnt < prev_cnt)
-        {
-            overflow_count++;
+    // Timer_CheckCapture() is assumed to be non-blocking:
+    if (Timer_CheckCapture(TIM2_BASE, 1, &new_capture)) {
+        if (capture_state == 0) {
+            // Got the first capture value; store it and update state.
+            first_capture = new_capture;
+            capture_state = 1;
+        } else {
+            // Second capture arrived: calculate the time difference.
+            uint16 difference = 0;
+            if (new_capture >= first_capture) {
+                difference = new_capture - first_capture;
+            } else {
+                // Account for overflow: the timer wrapped around.
+                difference = (MAX_TIMER_COUNT - first_capture + 1) + new_capture;
+            }
+            // Calculate frequency. Adjust the conversion factor if your timer tick isn’t 1 microsecond.
+            last_frequency = (uint16)(1000000 / difference);
+            capture_state = 0;  // Reset state ready for the next measurement.
         }
-        prev_cnt = current_cnt;
     }
-
-    // Total difference with overflows accounted
-    if (second_capture >= first_capture)
-    {
-        difference = (overflow_count * (MAX_TIMER_COUNT + 1)) + (second_capture - first_capture);
-    }
-    else
-    {
-        difference = (overflow_count * (MAX_TIMER_COUNT + 1)) + ((MAX_TIMER_COUNT - first_capture + 1) + second_capture);
-    }
-
-    frequency = 1e6 / difference;
-
-    return frequency;
+    // Return the last computed frequency (or zero if no measurement has been completed yet)
+    return last_frequency;
 }
